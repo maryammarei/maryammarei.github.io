@@ -1,0 +1,54 @@
+/* Define the custom font */
+@font-face {
+    font-family: 'DTM Mono';
+    src: url('DTM-Mono.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the font globally to the entire document */
+html, body {
+    font-family: 'DTM Mono', monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+body{
+    background-color: #300237;
+}
+
+/* styles.css */
+nav {
+    background-color: #300237;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 0;
+    display: flex;
+}
+.nav-list li {
+    flex: 1;
+}
+.nav-list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-list li a:hover {
+    background-color: #250024;
+}
+
+.container{
+    text-align: center;
+    padding: 250px 50px; /* Increase top and bottom padding to lower the text position */
+}
+
+
